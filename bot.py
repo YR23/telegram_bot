@@ -3,7 +3,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 
-api_key = os.getenv("TELEGRAM_BOT_TOKEN", "")  # fallback for local test
+api_key = os.getenv("TELEGRAM_BOT_TOKEN", " ")  # fallback for local test
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
