@@ -1,5 +1,3 @@
-# api_key = '7975258773:AAFofm1W-hg4-OC1v-kcj0gB1Bz6rFlOqOg'
-
 import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
